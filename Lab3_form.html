@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Lanjutan</title>
+    </head>
+    <body>
+        <header>MEMBUAT FORM</header>
+    </body>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>DATA PELANGGAN</legend>
+            <P>
+                <label for="nama">NAMA</label>
+                <input type="TEXT" id="NAMA" name="NAMA">
+            </P>
+            <P>
+                <LAbel for="alamat">ALAMAT</LAbel>
+                <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+            </P>
+            <p>
+                <label> JENIS KELAMIN</label>
+                <input id="jk_L" type="radio" name="kelamin" value="L"/><label for="jk_L">LAKI-LAKI</label>
+                <input id="jk_P" type="radio" name="kelamin" value="P"/><label for="jk_P">PEREMPUAN</label>
+            </p>
+            <P>
+                <input type="SUBMIT" value="LOGIN">
+            </P>
+        </fieldset>
+        <style>
+            form p > label {
+                display: inline-block;
+                width: 120px;
+            }
+            form input[type="text"], form textarea {
+                border: 1px solid #0e1da3;
+            }
+            form input[type="submit"] {
+                border: 1px solid #387a19;
+                background-color: #43197a;
+                color: #ffffff8c;
+                font-weight: bold;
+                padding: 5px 15px;
+            }
+        </style>
+        <header>
+            <h3>MEMBUAT FORM</h3>
+        </header>
+        <fieldset>
+            <legend>Data Mata Kuliah Semester Genap</legend>
+            <form action="proses.php" method="post">
+                Mata Kuliah :
+                <SElect id="matkul" name="matkul" multiple="multiple">
+                    <option value=""selected>Pilih Mata Kuliah</option>
+                    <option value="SISTEM BASIS DATA">SISTEM BASIS DATA</option>
+                    <option value="pengolagan citra">PENGOLAHAN CITRA</option>
+                    <option value="bisnis Ekonomi">BISNIS EKONOMI</option>
+                    <option value="kewirausahaan">KEWIRAUSAHAAN</option>
+                    <option value="Pemprograman WEB">PEMPROGRAMAN WEB</option>
+                </SElect>
+            </form>
+
+        </fieldset>
+    </form>
+</html>   
