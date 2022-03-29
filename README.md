@@ -1,5 +1,5 @@
 # Lab3Web
-Praktikum 3 : Membuat List, Table dan From
+Praktikum 3 : Membuat List, Table dan Form
 
 **MEMBUAT LIST**
 1. Membuat **ordered list** dengan menggunakan kode berikut 
