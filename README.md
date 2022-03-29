@@ -36,7 +36,8 @@ Hasil yang akan ditampilkan
 3. Menggabungkan sel data
 
 Untuk menggabungkan sel data, gunakan atribut _rowspan_ dan _colspan_, untuk praktek kali ini kita akan menggunakan _rowspan_. Atribut _rowspan_ sendiri digunakan untuk menggabungkan baris (secara vertikal) dan _colspan_ untuk menggabungkan kolom (secara horizontal). 
-![image](https://user-images.githubusercontent.com/101643559/160263935-c8bd5fbe-127d-481d-9208-54608a60ac5e.png)
+![image](https://user-images.githubusercontent.com/101643559/160612967-fab9f576-9ec2-4884-98a8-ea157d7e10a2.png)
+
 
 **Membuat Form **
 
